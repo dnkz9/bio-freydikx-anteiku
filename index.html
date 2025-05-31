@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bio freydikx</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-overlay"></div>
+  <div id="welcome-screen" class="centered">
+    <span class="enter-text">click to enter...</span>
+  </div>
+  <div id="profile-screen" class="hidden">
+    <canvas id="stars-bg"></canvas>
+    <div class="profile-content">
+      <div class="avatar"></div>
+      <h1 class="nickname">Freydik Anteiku</h1>
+      <p class="status">#macansquad
+      <div class="location"> <span>England</span> </div>
+      <div class="socials">
+        <a href="https://t.me/discordxivivide" class="tg" title="Telegram" target="_blank" rel="noopener"></a>
+        <a href="https://www.youtube.com/@freydikx" class="yt" title="YouTube" target="_blank" rel="noopener"></a>
+        <a href="https://discord.gg/dsHzgZq9sT" class="ds" title="Discord сервер" target="_blank" rel="noopener"></a>
+      </div>
+      <div class="volume-control bg-volume">
+        <span id="bg-volume-icon" class="volume-icon"></span>
+        <input type="range" id="bg-volume-slider" min="0" max="1" step="0.01" value="0.3">
+      </div>
+    </div>
+  </div>
+  <audio id="profile-audio" src="music/OBLADAET - Осколок.mp3"></audio>
+  <audio id="bg-audio" src="music/FRIENDLY THUG 52 NGG - Maestro.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html> 
